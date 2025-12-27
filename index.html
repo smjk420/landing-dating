@@ -5,24 +5,34 @@
   <title>DONNE AMATORIALI VICINO A TE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    * {box-sizing:border-box; margin:0; padding:0;}
     body {
       font-family: Arial, sans-serif;
       color:#fff;
-      text-align:center;
-      padding:20px;
-      margin:0;
       min-height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      background: url('https://i.postimg.cc/rsRmpT1d/photo-2025-12-14-12-36-43.jpg') no-repeat center center fixed;
-      background-size: cover;
+    }
+    #bg-video {
+      position:fixed;
+      right:0;
+      bottom:0;
+      min-width:100%;
+      min-height:100%;
+      width:auto;
+      height:auto;
+      z-index:-1;
+      object-fit:cover;
+      filter:blur(1px) brightness(0.5);
     }
     .box {
       max-width:480px;
-      background:rgba(0,0,0,0.78);
+      margin:0 auto;
       padding:20px;
       border-radius:8px;
+      background:rgba(0,0,0,0.70);
+      text-align:center;
+      position:relative;
+      top:50%;
+      transform:translateY(-50%);
     }
     h1 {font-size:24px; margin-bottom:12px; text-transform:uppercase;}
     p {font-size:15px; line-height:1.4;}
@@ -41,9 +51,14 @@
   </style>
 </head>
 <body>
+
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="https://github.com/smjk420/landing-dating/raw/refs/heads/main/w9w6Q24q62I-Sdnr.mp4">
+  </video>
+
   <div class="box">
     <h1>DONNE AMATORIALI VICINO A TE</h1>
-    <p>
+    <p>...</p>
       Niente finte modelle: solo donne amatoriali reali<br>
       che vogliono <b>chat hot e incontri discreti</b> nella tua zona.
     </p>
@@ -59,6 +74,7 @@
 </body>
 
 </html>
+
 
 
 
